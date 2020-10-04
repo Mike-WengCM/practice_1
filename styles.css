@@ -1,0 +1,110 @@
+body {
+  padding: 50px 300px;
+  /* display: flex; */
+  /* text-align: center; */
+  justify-content: center;
+  /* background-color: #0088a0; */
+  /* color: rgba(255,255,255,0.95); */
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-family: "微軟正黑體", sans-serif;
+  background-color: #F2F4F5;
+  /* padding:auto 100px; */
+}
+
+.Resume{
+    background-color: #FFFFFF;
+    box-shadow: 1px 3px 3px 4px #DCDEDF;
+    padding: 20px 40px;
+}
+
+h1 {
+  /* background-color: #ff0000; */
+  text-align: center;
+}
+
+h2{
+    color: #54B8EB;
+}
+
+.NameBox_text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#MyPhoto {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+#NameText {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Edu_Exp {
+  margin: 0px auto; /*div對齊效果*/
+  line-height: 20px;
+  
+}
+
+.Edu_Exp div {
+  display: inline-block; /*讓div並排*/
+  vertical-align: top;
+  text-align: left;
+  /* text-justify:distribute-all-lines; */
+  border-top: 1px solid #979797;
+  width: 49%
+  /* width: 480px; */
+}
+
+.JobReq{
+    border-top: 1px solid #979797;
+}
+
+.Lang{
+  border-top: 1px solid #979797;
+}
+
+.Skills {
+  margin: 0px auto; /*div對齊效果*/
+  border-top: 1px solid #979797;
+  
+}
+
+.Skills .Skills_left {
+  display: inline-block; /*讓div並排*/
+  vertical-align: top;
+  text-align: left;
+  width: 49%
+}
+
+.Skills .Skills_right {
+  display: inline-block; /*讓div並排*/
+  vertical-align: top;
+  text-align: left;
+  width: 49%
+}
+
+.bar {
+  margin: 15px;
+  width: 150px;
+  height: 10px;
+  border: solid 2px #ff7168;
+  border-radius: 5px;
+}
+
+.bar_p20 {
+  height: 100%;
+  width: 60%;
+  background-color: #ff7168;
+  width: 20%;
+}
+.bar_p40 {
+  height: 100%;
+  width: 60%;
+  background-color: #ff7168;
+  width: 40%;  
+}
